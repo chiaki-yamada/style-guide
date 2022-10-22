@@ -22,17 +22,22 @@ a {
 /* ============================================= */
 
 .headline-primary {
-  color: #58e1c1;
+  color: $title;
   margin-left: 10px;
 }
 
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: $title;
+
+  @media #{$brk} {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 }
 
 .link {
-  color: #51ddfc;
+  color: $link;
   font-weight: 700;
 }
 

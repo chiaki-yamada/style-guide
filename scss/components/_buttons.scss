@@ -10,10 +10,11 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $button;
 }
 
 .error {

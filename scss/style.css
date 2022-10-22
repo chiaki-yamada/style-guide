@@ -329,17 +329,23 @@ a {
 /*              Typography                       */
 /* ============================================= */
 .headline-primary {
-  color: #58e1c1;
+  color: #2C4261;
   margin-left: 10px;
 }
 
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: #2C4261;
+}
+@media (max-width: 768px) {
+  .headline-secondary {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 }
 
 .link {
-  color: #51ddfc;
+  color: #4A747E;
   font-weight: 700;
 }
 
@@ -367,7 +373,7 @@ a {
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: #EFD956;
 }
 
 .error {
@@ -399,7 +405,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid #E3C515;
 }
 
 .hidden {
@@ -432,7 +438,7 @@ a {
 
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: #1F83FF;
 }
 
 /* ============================================= */
@@ -454,7 +460,7 @@ a {
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px solid #E3C515;
 }
 
 .img-logo {
@@ -529,7 +535,7 @@ a {
 }
 
 .theme.col-12 {
-  background-color: #80e8d1;
+  background-color: #8494F4;
 }
 
 .card {
