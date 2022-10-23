@@ -329,23 +329,17 @@ a {
 /*              Typography                       */
 /* ============================================= */
 .headline-primary {
-  color: #2C4261;
+  color: #58e1c1;
   margin-left: 10px;
 }
 
 .headline-secondary {
   font-weight: 300;
-  color: #2C4261;
-}
-@media (max-width: 768px) {
-  .headline-secondary {
-    text-align: center;
-    font-size: 1.5rem;
-  }
+  color: #777;
 }
 
 .link {
-  color: #4A747E;
+  color: #51ddfc;
   font-weight: 700;
 }
 
@@ -373,7 +367,7 @@ a {
 }
 
 .default {
-  background-color: #EFD956;
+  background-color: #51ddfc;
 }
 
 .error {
@@ -405,7 +399,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #E3C515;
+  border-bottom: 5px solid #58e1c1;
 }
 
 .hidden {
@@ -438,7 +432,7 @@ a {
 
 .nav-link:hover {
   color: #fff;
-  background-color: #1F83FF;
+  background-color: #58e1c1;
 }
 
 /* ============================================= */
@@ -460,7 +454,7 @@ a {
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
-  border: 1px solid #E3C515;
+  border: 1px solid #58e1c1;
 }
 
 .img-logo {
@@ -535,7 +529,7 @@ a {
 }
 
 .theme.col-12 {
-  background-color: #8494F4;
+  background-color: #80e8d1;
 }
 
 .card {

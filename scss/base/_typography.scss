@@ -28,12 +28,7 @@ a {
 
 .headline-secondary {
   font-weight: 300;
-  color: $title;
-
-  @media #{$brk} {
-    text-align: center;
-    font-size: 1.5rem;
-  }
+  color: #777;
 }
 
 .link {
